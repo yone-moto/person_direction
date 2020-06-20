@@ -35,10 +35,10 @@ openposeから関節点を取得して、その関節点の位置を入力とし
    新しいdataframe(csv)がinput直下に作られる。
 
 3. モデルの学習を行う
-'''
+```
    python lightgbm_model.py
-'''
+```
 4. テストデータで評価する
-'''
+```
    python lightgbm_test.py
-'''
+```
